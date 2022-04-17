@@ -1,0 +1,31 @@
+{
+  "compilerOptions": {
+    "module": "commonjs",
+    "target": "es5",
+    "lib": [
+      "ESNext",
+      "dom"
+    ],
+    "jsx": "react-jsx",
+    "moduleResolution": "node",
+    "sourceRoot": "src",
+    "inlineSourceMap": true
+  },
+  "exclude": [
+    "node_modules"
+  ],
+  "include": [
+    "webpack.ts",
+    "src/**/*"
+  ],
+  "references": [
+    {
+      "path": "../common/tsconfig.json"
+    }
+  ],
+  "ts-node": {
+    "compilerOptions": {
+      "module": "CommonJS"
+    }
+  }
+}
