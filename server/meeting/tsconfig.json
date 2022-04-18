@@ -1,0 +1,25 @@
+{
+  "compilerOptions": {
+    "baseUrl": "./src",
+    "inlineSourceMap": true,
+    "module": "commonjs",
+    "moduleResolution": "node",
+    "noImplicitAny": true,
+    "outDir": "./dist",
+    "paths": {
+      "@common/*": ["../../../common/*"],
+      "@controllers/*": ["./controllers/*"],
+    },
+    "sourceRoot": "src",
+    "target": "ESNext"
+  },
+  "exclude": [
+    "node_modules"
+  ],
+  "include": [
+    "src/**/*"
+  ],
+  "references": [
+    { "path": "../../common/tsconfig.json" }
+  ],
+}

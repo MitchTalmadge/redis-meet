@@ -1,15 +1,15 @@
 {
-  "name": "redis-meet-server",
-  "description": "redis-meet Server",
+  "name": "redis-meet_meeting-server",
+  "description": "redis-meet Meeting Server",
   "authors": "Mitch Talmadge",
   "version": "1.0.0",
   "scripts": {
-    "build": "tsc --build ../common/tsconfig.json && tsc",
+    "build": "tsc --build ../../common/tsconfig.json && tsc",
     "start1": "nodemon --legacy-watch src/main.ts 9000",
     "start2": "nodemon --legacy-watch src/main.ts 9001"
   },
   "_moduleAliases": {
-    "@common": "../common/dist",
+    "@common": "../../common/dist",
     "@controllers": "./dist/controllers"
   },
   "nodemonConfig": {
@@ -23,7 +23,6 @@
     "cors": "^2.8.5",
     "debug": "^4.3.4",
     "express": "^4.17.3",
-    "mediasoup": "^3.9.9",
     "redis": "^4.0.6",
     "rxjs": "^7.5.5",
     "socket.io": "^4.4.1"

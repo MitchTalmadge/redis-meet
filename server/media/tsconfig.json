@@ -7,7 +7,7 @@
     "noImplicitAny": true,
     "outDir": "./dist",
     "paths": {
-      "@common/*": ["../../common/*"],
+      "@common/*": ["../../../common/*"],
       "@controllers/*": ["./controllers/*"],
     },
     "sourceRoot": "src",
@@ -20,6 +20,6 @@
     "src/**/*"
   ],
   "references": [
-    { "path": "../common/tsconfig.json" }
+    { "path": "../../common/tsconfig.json" }
   ],
 }
