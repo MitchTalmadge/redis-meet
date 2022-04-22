@@ -26,12 +26,7 @@ const config: webpack.Configuration = {
         test: /\.(sc|sa|c)ss$/,
         use: [
           'style-loader',
-          {
-            loader: 'css-loader',
-            options: {
-              modules: "local",
-            },
-          },
+          'css-loader',
           'sass-loader',
         ],
       }
