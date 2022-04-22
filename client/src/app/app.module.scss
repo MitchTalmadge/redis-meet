@@ -1,0 +1,27 @@
+:global(html), :global(body) {
+  margin: 0;
+  padding: 0;
+}
+
+:global(body) {
+  background: url('https://www.toptal.com/designers/subtlepatterns/uploads/geometry2.png');
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  color: #444;
+}
+
+.app {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+
+  width: 100vw;
+  height: 100vh;
+  padding: 2rem;
+  box-sizing: border-box;
+  overflow: hidden;
+
+  .title {
+    margin: 0;
+    margin-bottom: 1rem;
+  }
+}

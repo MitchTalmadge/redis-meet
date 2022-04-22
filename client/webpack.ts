@@ -29,7 +29,7 @@ const config: webpack.Configuration = {
           {
             loader: 'css-loader',
             options: {
-              modules: true,
+              modules: "local",
             },
           },
           'sass-loader',
