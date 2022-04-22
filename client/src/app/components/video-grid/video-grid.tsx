@@ -5,7 +5,9 @@ export const VideoGrid = () => {
     return (
       <div className={styles['video-grid']}>
         <div className={styles['video-grid-inner']}>
+          {/* Personal Tile */}
           <VideoTile />
+          {/* Others' Tiles */}
         </div>
       </div>
     )
